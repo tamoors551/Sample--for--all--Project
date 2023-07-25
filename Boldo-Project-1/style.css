@@ -1,0 +1,399 @@
+
+
+/*  preset for all  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+    .container
+    {
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0  15px;
+    
+    }
+    .row{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+    }
+    .col {
+    
+    flex: 0 0 100%;
+    max-width: 100% ;
+    padding: 0 15px;
+    
+    }
+    .col-6 {
+    
+        flex: 0 0 50%;
+        max-width: 50% ;
+        padding: 0 15px;
+        
+        }
+    img{
+     max-width: 100%;
+        
+    }
+    .col-4 {
+    
+        flex: 0 0 33.3%;
+        max-width: 33.3% ;
+        padding: 0 15px;
+        
+        }
+    
+        .col-3{
+            flex: 0 0 25%;
+            max-width: 25% ;
+            padding: 0 15px;
+            
+            }
+    
+            
+    
+            /* fdfasdfasdf */
+      .col-9{
+        flex: 0 0 75%;
+        max-width: 75% ;
+        padding: 0 15px;
+
+      }
+      .col-8 {
+        flex: 0 0 66.6%;
+        max-width: 66.6% ;
+        padding: 0 15px;
+
+      }
+      
+
+      
+    
+            @media only screen and (max-width: 768px)  {
+
+
+
+
+
+
+
+
+                    }
+        
+
+      .nav{
+        margin-top: 50px;
+        /* border: 3px dashed rgb(255, 115, 0); */
+
+      }
+
+      .topnav-left {
+        overflow: hidden;
+        background-color: #ffffff;
+       
+      }
+      
+      .topnav-left a {
+        float: left;
+        color: #0A2640;
+        text-align: center;
+        padding: 14px 16px;
+        border-radius: 10px
+        background-color: ;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav-right {
+        float: right;
+        border-radius: 50px;
+        background-color: #ffffff;
+      }
+      .topnav-right a  {
+        float: right;
+        padding: 9px 25px;
+        margin-right: 10px;
+        margin-top: 17px;
+        border-radius: 50px;
+        background-color: #16e79b;
+      }
+.topnav-right a:hover {
+  background-color: #ff1e00;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+      .flex-container {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+      }
+.flex-end { 
+  justify-content: flex-end; 
+}  
+
+.flex-item {
+  background: rgb(150, 235, 13);
+ padding: 10px 20px;
+ border-radius: 30px;
+  color: white;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+ .header-tabs {
+
+  margin: 10px;
+  padding: px;
+ }
+
+    .hero-top-blog  p  {
+     
+  
+       margin-top: 100px;
+       margin-left: 550px;
+       
+
+           }
+
+                .container-hero-top {
+               
+             
+                margin-left: 550px;
+                top: 143px;
+                left: 256px;
+                gap: 12px;
+                /* border: 3px dashed rgb(255, 115, 0); */
+
+
+                }
+              
+           .hero-top p {
+            margin-left: 550px;
+            width: 41px;
+            height: 32px;
+            align-items: end;
+
+            
+             font-family: sans-serif;
+             font-size: 20px;
+             font-weight: 400;
+             line-height: 32px;
+             letter-spacing: 0em;
+             text-align: left;
+             color: #0A2640;
+           
+
+
+
+           }
+.hero-top-blog h1 {
+
+    
+  /* border: 3px dashed rgb(255, 115, 0); */
+
+    margin-left: 450px;
+    font-family: Manrope;
+  
+    text-align: center;
+    color: #0A2640;
+
+
+}
+.hero-bottom{
+  width: 1200px;
+  height: 386px;
+  
+  top: 342px;
+  left: 92px;
+  border-radius: 24px;
+  padding-top: 40px;
+  /* border: 3px dashed rgb(255, 115, 0); */
+
+}
+.aa{
+  display: flex;
+align-items: center;
+
+  
+}
+.aa span {
+padding-left: 20px;
+margin-left: ;
+
+}
+
+.hero-bottom-left{
+  /* border: 3px dashed rgb(255, 115, 0); */
+}
+
+.hero-bottom-content-right {
+ 
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+ 
+  
+  /* border: 3px dashed rgb(255, 115, 0); */
+
+
+}
+.line {
+  width: 1200px;
+  height: 1px;
+  top: 824px;
+  left: 100px;
+  background: #0A2640;
+margin-top: 100px;
+align-items: center;
+align-self: center;
+  
+
+}
+
+.testimonial-section-top{
+  width: 842px;
+  height: 72px;
+  top: 921px;
+  left: 202px;
+  font-family: Manrope ;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  padding-left: 320px;
+  padding-top: 100px;
+  margin-top: 10px;
+
+
+
+  
+
+}
+.testimonial-section {
+  width: 1170px;
+  height: 424px;
+  top: 1033px;
+  left: 201px;
+  margin-top: 150px;
+  /* border: 3px dashed rgb(255, 115, 0); */
+
+
+  
+
+}
+.button-1 {
+  cursor: pointer;
+  padding: 16px 56px 16px 56px;
+  border-radius: 56px;
+  margin-top:50px;
+  border: 2px;
+  gap: 8px;
+  font-family:Open Sans; ;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.button-1:hover {
+  background-color: #16e79b;
+  cursor: pointer;
+  padding: 16px 56px 16px 56px;
+  border-radius: 56px;
+  margin-top:50px;
+  border: 2px;
+  gap: 8px;
+  font-family:Open Sans; ;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.button-1-div {
+ 
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.calltoaction{
+  width: 1200px;
+  height: 391px;
+  left: 100px;
+  margin-top: 100px;
+  background: #0A2640;
+  color: rgb(255, 255, 255);
+
+  /* border: 3px dashed rgb(255, 115, 0); */
+
+
+}
+.calltoaction-inside {
+ 
+  width: 716px;
+height: 139px;
+top: 72px;
+left: 242px;
+
+  
+ 
+  
+
+}
+.calltoaction-inside-content{
+ 
+  padding-left: 200px;
+  padding-top: 50px;
+  
+
+}
+.email {
+  width: 370px;
+  margin: 10px 0px 0px 190px ;
+ padding: 15px;
+ font-size: 25px;
+  border-radius: 56px;
+}
+.email:hover{
+  background-color: brown;
+  color: yellow;
+  font-size: 25px;
+}
+.calltoaction-button {
+  width: 210px;
+  margin: 10px 0px 0px 250px ;
+  background: #65E4A3;
+  border-radius: 56px;
+  padding: 16px, 56px, 16px, 56px;
+  padding-top: 16px;
+  padding-right:56px ;
+  padding-bottom:16px ;
+  padding-left: 56px;
+ 
+}
+
+.calltoaction-button:hover {
+
+  background: #ff1e00;
+}
+
+.footer {
+margin-top: 50px;
+border: 3px dashed rgb(255, 115, 0);
+
+
+}
+.footer:hover {
+  color: blue;
+  text-decoration: dashed;
+}
+.footer:active   {
+  color: rgb(43, 255, 0);
+  text-decoration: dashed;
+}
